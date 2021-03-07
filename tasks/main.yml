@@ -1,8 +1,4 @@
 ---
-# - name: Generate radio list
-#   include_tasks: 'radios.yml'
-
-# tasks file for ar_mediaplayer
 - name: Include OS-specific tasks
   include_tasks: "{{ lookup('first_found', files) }}"
   vars:
@@ -16,44 +12,46 @@
     name: "{{ mediaplayer_user_name }}"
     group: audio
     comment: Mediaplayer
-    home: "{{ mediaplayer_install_location }}"
+    home: "{{ mediaplayer_install_location }}/mediaplayer"
     system: yes
 
-- name: Get mediaplayer release
+- name: "Download mediaplayer release {{ mediaplayer_version }}"
+  get_url:
+    url: "{{ mediaplayer_release_url }}"
+    dest: "/usr/local/src/mediaplayer-{{ mediaplayer_version }}.zip"
+
+- name: Unarchive mediaplayer release
   ansible.builtin.unarchive:
-    src: "{{ mediaplayer_release_url }}"
+    src: "/usr/local/src/mediaplayer-{{ mediaplayer_version }}.zip"
     dest: "{{ mediaplayer_install_location }}"
     owner: "{{ mediaplayer_user_name }}"
     remote_src: yes
+    keep_newer: yes
+    # exclude:
+    #   - "{{ mediaplayer_install_location }}/mediaplayer/RadioList.json.sample"
+    #   - "{{ mediaplayer_install_location }}/mediaplayer/run.sh"
+    #   - "{{ mediaplayer_install_location }}/mediaplayer/scripts"
 
-# debug:
-#   msg: Version is
-# - name: Checkout mediaplayer repository
-#   git:
-#     repo: 'https://github.com/PeteManchester/MediaPlayer.git'
-#     dest: /usr/local/src/mediaplayer
-#     update: yes
-
-# - name: Build mediaplayer
-#   shell: ant build_app
-#   args:
-#     chdir: /usr/local/src/mediaplayer/com.upnp.mediaplayer
+- name: Removed ununsed files
+  ansible.builtin.file:
+    path: "{{ item }}"
+    state: absent
+  loop:
+    - "{{ mediaplayer_install_location }}/mediaplayer/RadioList.json.sample"
+    - "{{ mediaplayer_install_location }}/mediaplayer/run.sh"
+    - "{{ mediaplayer_install_location }}/mediaplayer/scripts"
+  changed_when: false
 
 - name: Install app.properties
   template:
     src: app.properties
-    dest: "{{ mediaplayer_install_location }}/app.properties"
+    dest: "{{ mediaplayer_install_location }}/mediaplayer/app.properties"
     owner: mediaplayer
     group: audio
     mode: 0640
 
-- name: Install RadioList.json
-  template:
-    src: RadioList.json
-    dest: "{{ mediaplayer_install_location }}/RadioList.json"
-    owner: mediaplayer
-    group: audio
-    mode: 0640
+- name: Generate RadioList.json
+  include_tasks: 'radios.yml'
 
 - name: Install mediaplayer.service
   template:
@@ -62,10 +60,6 @@
     owner: root
     group: root
     mode: 0640
-
-- name: Enable service mediaplayer and ensure it is not masked
-  ansible.builtin.systemd:
-    name: "{{ mediaplayer_systemd_name }}"
-    enabled: yes
-    state: started
-    masked: no
+  notify:
+    - Enable and start service mediaplayer
+    - Systemctl daemon reload

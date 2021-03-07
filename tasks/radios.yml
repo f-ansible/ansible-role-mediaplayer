@@ -1,17 +1,17 @@
 ---
-- name: Include radios definition
-  include_vars: "radios.yml"
-  when:
-    - mediaplayer_default_radios == true
-
 - name: Install RadioList.json
   template:
     src: RadioList.json
-    dest: "/tmp/RadioList.json"
+    dest: "{{ mediaplayer_install_location }}/mediaplayer/RadioList.json"
     owner: mediaplayer
     group: audio
     mode: 0640
 
-- name: Log radio
-  debug:
-    msg: Radio 0 is {{ radios[0] }}
+# - name: Include radios definition
+#   include_vars: "radios.yml"
+#   when:
+#     - mediaplayer_default_radios == true
+
+# - name: Log radio
+#   debug:
+#     msg: Radio 0 is {{ radios[0] }}

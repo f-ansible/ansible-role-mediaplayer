@@ -1,11 +1,12 @@
 [Unit]
 Description=Mediaplayer
+Requires=mpd.service
 After=mpd.service
 
 [Service]
 Type=simple
 User={{ mediaplayer_user_name }}
-WorkingDirectory={{ mediaplayer_install_location }}
+WorkingDirectory={{ mediaplayer_install_location }}/mediaplayer
 ExecStart=/usr/bin/java -jar mediaplayer.jar
 Restart=on-abort
 

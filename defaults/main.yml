@@ -4,7 +4,7 @@ mediaplayer_version: 'v0.0.9.5'
 mediaplayer_release_url: "https://github.com/PeteManchester/MediaPlayer/releases/download/{{ mediaplayer_version }}/mediaplayer.zip"
 
 mediaplayer_user_name: "mediaplayer"
-mediaplayer_install_location: "/opt/mediaplayer"
+mediaplayer_install_location: "/opt"
 mediaplayer_systemd_name: "mediaplayer"
 mediaplayer_default_radios: true
 

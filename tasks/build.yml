@@ -1,0 +1,12 @@
+# debug:
+#   msg: Version is
+# - name: Checkout mediaplayer repository
+#   git:
+#     repo: 'https://github.com/PeteManchester/MediaPlayer.git'
+#     dest: /usr/local/src/mediaplayer
+#     update: yes
+
+# - name: Build mediaplayer
+#   shell: ant build_app
+#   args:
+#     chdir: /usr/local/src/mediaplayer/com.upnp.mediaplayer

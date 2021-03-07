@@ -1,0 +1,12 @@
+---
+- name: Enable and start service mediaplayer
+  ansible.builtin.systemd:
+    name: "{{ mediaplayer_systemd_name }}"
+    enabled: yes
+    masked: no
+    state: started
+    daemon_reload: yes
+
+- name: Systemctl daemon reload
+  ansible.builtin.systemd:
+    daemon_reload: yes
