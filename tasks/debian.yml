@@ -1,0 +1,11 @@
+---
+# tasks file for ar_mediaplayer
+- name: Ensure dependencies are installed
+  apt:
+    name: "{{ packages }}"
+    state: present
+  vars:
+    packages:
+      - mpd
+      - "{{ (ansible_architecture == 'armv6l') |
+        ternary('openjdk-8-jre-headless', 'default-jre') }}"

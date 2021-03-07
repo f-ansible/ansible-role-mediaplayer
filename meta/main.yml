@@ -1,0 +1,26 @@
+---
+galaxy_info:
+  author: your name
+  description: your description
+  company: your company (optional)
+  license: MIT
+
+  # Tested with molecule, support only the
+  # two latest versions
+  min_ansible_version: 2.9
+
+  # If this a Container Enabled role, provide the minimum Ansible Container version.
+  # min_ansible_container_version:
+
+  platforms:
+    # - name: Debian
+    #   versions:
+    #     - Buster
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+
+  galaxy_tags: []
+
+dependencies: []

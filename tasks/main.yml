@@ -1,0 +1,71 @@
+---
+# - name: Generate radio list
+#   include_tasks: 'radios.yml'
+
+# tasks file for ar_mediaplayer
+- name: Include OS-specific tasks
+  include_tasks: "{{ lookup('first_found', files) }}"
+  vars:
+    - files:
+        - '{{ ansible_distribution | lower }}-{{ ansible_distribution_release }}.yml'
+        - '{{ ansible_distribution | lower }}.yml'
+        - '{{ ansible_os_family | lower }}.yml'
+
+- name: Add the user '{{ mediaplayer_user_name }}'
+  user:
+    name: "{{ mediaplayer_user_name }}"
+    group: audio
+    comment: Mediaplayer
+    home: "{{ mediaplayer_install_location }}"
+    system: yes
+
+- name: Get mediaplayer release
+  ansible.builtin.unarchive:
+    src: "{{ mediaplayer_release_url }}"
+    dest: "{{ mediaplayer_install_location }}"
+    owner: "{{ mediaplayer_user_name }}"
+    remote_src: yes
+
+# debug:
+#   msg: Version is
+# - name: Checkout mediaplayer repository
+#   git:
+#     repo: 'https://github.com/PeteManchester/MediaPlayer.git'
+#     dest: /usr/local/src/mediaplayer
+#     update: yes
+
+# - name: Build mediaplayer
+#   shell: ant build_app
+#   args:
+#     chdir: /usr/local/src/mediaplayer/com.upnp.mediaplayer
+
+- name: Install app.properties
+  template:
+    src: app.properties
+    dest: "{{ mediaplayer_install_location }}/app.properties"
+    owner: mediaplayer
+    group: audio
+    mode: 0640
+
+- name: Install RadioList.json
+  template:
+    src: RadioList.json
+    dest: "{{ mediaplayer_install_location }}/RadioList.json"
+    owner: mediaplayer
+    group: audio
+    mode: 0640
+
+- name: Install mediaplayer.service
+  template:
+    src: systemd/system/mediaplayer.service
+    dest: "/lib/systemd/system/{{ mediaplayer_systemd_name }}.service"
+    owner: root
+    group: root
+    mode: 0640
+
+- name: Enable service mediaplayer and ensure it is not masked
+  ansible.builtin.systemd:
+    name: "{{ mediaplayer_systemd_name }}"
+    enabled: yes
+    state: started
+    masked: no

@@ -1,0 +1,295 @@
+{
+  "head": {
+    "status": "200"
+  },
+  "body": [
+    {
+      "preset_id": "s305918",
+      "text": "France Culture",
+      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/France_Culture_-_2008.svg/1200px-France_Culture_-_2008.svg.png",
+      "item": "station",
+      "URL": "http://direct.franceculture.fr/live/franceculture-midfi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s901897",
+      "text": "France Inter",
+      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/39/France_Inter_logo.svg/1024px-France_Inter_logo.svg.png",
+      "item": "station",
+      "URL": "http://direct.franceinter.fr/live/franceinter-midfi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s822553",
+      "text": "France Musique",
+      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/22/France_Musique_-_2008.svg/langfr-744px-France_Musique_-_2008.svg.png",
+      "item": "station",
+      "URL": "http://direct.francemusique.fr/live/francemusique-midfi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s960824",
+      "text": "FIP",
+      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d5/FIP_logo_2005.svg/768px-FIP_logo_2005.svg.png",
+      "item": "station",
+      "URL": "http://direct.fipradio.fr/live/fip-midfi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s890545",
+      "text": "France Info",
+      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/18/France_Info_-_2008.svg/600px-France_Info_-_2008.svg.png",
+      "item": "station",
+      "URL": "http://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s221588",
+      "text": "France Bleu",
+      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/98/France_Bleu_logo_2015.svg/600px-France_Bleu_logo_2015.svg.png",
+      "item": "station",
+      "URL": "http://direct.francebleu.fr/live/fb1071-midfi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s638891",
+      "text": "Deutschlandfunk",
+      "image": "http://cdn-radiotime-logos.tunein.com/s42828q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s42828",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s953491",
+      "text": "Deutschlandradio Kultur",
+      "image": "http://cdn-radiotime-logos.tunein.com/s6628q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s6628",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s851068",
+      "text": "SWR1",
+      "image": "http://cdn-radiotime-logos.tunein.com/s20291q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s20291",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s161244",
+      "text": "SWR2 Kulturradio",
+      "image": "http://cdn-radiotime-logos.tunein.com/s20292q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s20292",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s279224",
+      "text": "Linn Classical",
+      "image": "http://cdn-radiotime-logos.tunein.com/s122116q.png",
+      "item": "station",
+      "URL": "http://radio.linnrecords.com/cast/tunein.php/linnclassical/playlist.pls",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s201840",
+      "text": "Linn Jazz",
+      "image": "http://cdn-radiotime-logos.tunein.com/s122120q.png",
+      "item": "station",
+      "URL": "http://radio.linnrecords.com/cast/tunein.php/linnjazz/playlist.pls",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s364362",
+      "text": "BBC Radio 1",
+      "image": "http://cdn-radiotime-logos.tunein.com/s24939q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s24939",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s931232",
+      "text": "BBC Radio 2",
+      "image": "http://cdn-radiotime-logos.tunein.com/s24940q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s24940",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s992844",
+      "text": "BBC Radio 3",
+      "image": "http://cdn-radiotime-logos.tunein.com/s24941q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s24941",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s167067",
+      "text": "BBC Radio 4",
+      "image": "http://cdn-radiotime-logos.tunein.com/s25419q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s25419",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s545764",
+      "text": "BBC Radio 5",
+      "image": "http://cdn-radiotime-logos.tunein.com/s24943q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s24943",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s360546",
+      "text": "BBC Radio 6",
+      "image": "http://cdn-radiotime-logos.tunein.com/s44491q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s44491",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s398357",
+      "text": "Aloha Joe's Hawaiian Radio",
+      "image": "http://cdn-radiotime-logos.tunein.com/s49372q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s49372",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s141886",
+      "text": "Live Ireland Radio",
+      "image": "http://cdn-radiotime-logos.tunein.com/s17895q.png",
+      "item": "station",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s17895",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s194585",
+      "text": "Argentine Tango Radio",
+      "image": "http://miledmusic.com/wp-content/uploads/2014/11/32.jpg",
+      "item": "station",
+      "URL": "http://listen.argentinetangoradio.com/",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s215816",
+      "text": "Cosmos radio",
+      "image": "http://raddio.net/wp-content/uploads/2015/12/bdd62233307fe81fc14b3181cd3efaee.jpg",
+      "item": "station",
+      "URL": "http://makrodigital.net:8215/CosmosSoft",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s816142",
+      "text": "Audiophile Baroque",
+      "image": "http://static.radio.fr/images/broadcasts/24/30/21374/c175.png",
+      "item": "station",
+      "URL": "http://8.38.78.173:2199/tunein/baroque.pls",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s283582",
+      "text": "Flux4 Radio",
+      "image": "http://cdn-radiotime-logos.tunein.com/s75856q.png",
+      "item": "station",
+      "URL": "http://www.flux4.com/player/listen.m3u",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s104552",
+      "text": "France Musique Classique Easy",
+      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/aca436ad-7f99-4765-9404-1b04bf216daf/fmwebradiosnormaleasy.jpg",
+      "item": "station",
+      "URL": "http://direct.francemusique.fr/live/francemusiqueeasyclassique-hifi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s536545",
+      "text": "France Musique Classique Plus",
+      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/b8213b77-465c-487e-b5b6-07ce8e2862df/fmwebradiosnormalplus.jpg",
+      "item": "station",
+      "URL": "http://direct.francemusique.fr/live/francemusiqueclassiqueplus-hifi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s500149",
+      "text": "France Musique Concerts",
+      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/72f1a384-5b04-4b98-b511-ac07b35c7daf/fmwebradiosnormalconcerts.jpg",
+      "item": "station",
+      "URL": "http://direct.francemusique.fr/live/francemusiqueconcertsradiofrance-hifi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s643620",
+      "text": "France Musique Jazz",
+      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/a2d34823-36a1-4fce-b3fa-f0579e056552/fmwebradiosnormaljazz.jpg",
+      "item": "station",
+      "URL": "http://direct.francemusique.fr/live/francemusiquelajazz-hifi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s417233",
+      "text": "France Musique Contemporaine",
+      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/92f9a1f4-5525-4b2a-af13-213ff3b0c0a6/fmwebradiosnormalcontemp.jpg",
+      "item": "station",
+      "URL": "http://direct.francemusique.fr/live/francemusiquelacontemporaine-hifi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s213912",
+      "text": "France Musique Cora Monde",
+      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/22b8b3d6-e848-4090-8b24-141c25225861/fmwebradiosnormalocora.jpg",
+      "item": "station",
+      "URL": "http://direct.francemusique.fr/live/francemusiqueocoramonde-hifi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s756551",
+      "text": "FIP autour du Rock",
+      "image": "http://www.fipradio.fr/sites/default/files/asset/images/2016/06/fip_autour_du_rock_logo_hd_player.png",
+      "item": "station",
+      "URL": "http://direct.fipradio.fr/live/fip-webradio1.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s406076",
+      "text": "FIP autour du Jazz",
+      "image": "http://www.fipradio.fr/sites/default/files/asset/images/2016/06/fip_autour_du_jazz_logo_hd_player.png",
+      "item": "station",
+      "URL": "http://direct.fipradio.fr/live/fip-webradio2.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s969416",
+      "text": "FIP autour du Groove",
+      "image": "http://www.fipradio.fr/sites/default/files/asset/images/2016/06/fip_autour_du_groove_logo_hd_player.png",
+      "item": "station",
+      "URL": "http://direct.fipradio.fr/live/fip-webradio3.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s202064",
+      "text": "FIP autour du Monde",
+      "image": "http://www.fipradio.fr/sites/default/files/asset/images/2016/06/fip_autour_du_monde_logo_hd_player.png",
+      "item": "station",
+      "URL": "http://direct.fipradio.fr/live/fip-webradio4.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s932030",
+      "text": "FIP tout nouveau",
+      "image": "http://www.fipradio.fr/sites/default/files/asset/images/2016/06/fip_tout_nouveau_logo_hd_player.png",
+      "item": "station",
+      "URL": "http://direct.fipradio.fr/live/fip-webradio5.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s461912",
+      "text": "FIP autour du Reggae",
+      "image": "https://pro2-bar-s3-cdn-cf4.myportfolio.com/0597126e87e7a69fd15d858a6dccf5a6/f4df8657-ef6d-4bc7-ad3c-8e8554651554_rw_1920.png",
+      "item": "station",
+      "URL": "http://direct.fipradio.fr/live/fip-webradio6.mp3",
+      "type": "audio"
+    }
+  ]
+}

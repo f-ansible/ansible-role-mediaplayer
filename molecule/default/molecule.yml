@@ -1,0 +1,24 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+lint: |
+  set -e
+  yamllint .
+  ansible-lint
+  flake8
+platforms:
+  # only support LTS
+  - name: ubuntu-bionic
+    image: ubuntu:bionic
+  - name: ubuntu-focal
+    image: ubuntu:focal
+provisioner:
+  name: ansible
+  # lint:
+  #   name: ansible-lint
+verifier:
+  name: testinfra
+#   lint:
+#     name: flake8

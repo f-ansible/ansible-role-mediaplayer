@@ -1,0 +1,13 @@
+[Unit]
+Description=Mediaplayer
+After=mpd.service
+
+[Service]
+Type=simple
+User={{ mediaplayer_user_name }}
+WorkingDirectory={{ mediaplayer_install_location }}
+ExecStart=/usr/bin/java -jar mediaplayer.jar
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
