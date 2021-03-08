@@ -204,22 +204,6 @@
       "type": "audio"
     },
     {
-      "preset_id": "s639683",
-      "text": "France Musique Opéra",
-      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-opera.png",
-      "item": "station",
-      "URL": "https://icecast.radiofrance.fr/francemusiqueopera-hifi.aac",
-      "type": "audio"
-    },
-    {
-      "preset_id": "s249279",
-      "text": "France Musique Baroque",
-      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-baroque.jpg",
-      "item": "station",
-      "URL": "https://icecast.radiofrance.fr/francemusiquebaroque-hifi.aac",
-      "type": "audio"
-    },
-    {
       "preset_id": "s536545",
       "text": "France Musique Classique Plus",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-plus.jpg",
@@ -233,6 +217,22 @@
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-concerts.jpg",
       "item": "station",
       "URL": "http://direct.francemusique.fr/live/francemusiqueconcertsradiofrance-hifi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s639683",
+      "text": "France Musique Opéra",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-opera.png",
+      "item": "station",
+      "URL": "https://icecast.radiofrance.fr/francemusiqueopera-hifi.aac",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s249279",
+      "text": "France Musique Baroque",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-baroque.jpg",
+      "item": "station",
+      "URL": "https://icecast.radiofrance.fr/francemusiquebaroque-hifi.aac",
       "type": "audio"
     },
     {
@@ -253,31 +253,31 @@
     },
     {
       "preset_id": "s213912",
-      "text": "France Musique Cora Monde",
-      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-bo.jpg",
+      "text": "France Musique Ocora Monde",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-ocora.jpg",
       "item": "station",
       "URL": "http://direct.francemusique.fr/live/francemusiqueocoramonde-hifi.mp3",
       "type": "audio"
     },
     {
-      "preset_id": "s525830",
-      "text": "France Musique BO",
-      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-bo.jpg",
-      "item": "station",
-      "URL": "https://icecast.radiofrance.fr/francemusiquelabo-hifi.aac",
-      "type": "audio"
-    },
-    {
       "preset_id": "s756551",
-      "text": "FIP autour du Rock",
+      "text": "FIP Rock",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-rock.jpg",
       "item": "station",
       "URL": "http://direct.fipradio.fr/live/fip-webradio1.mp3",
       "type": "audio"
     },
     {
+      "preset_id": "s525908",
+      "text": "FIP Pop",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-pop.jpg",
+      "item": "station",
+      "URL": "https://stream.radiofrance.fr/fippop/fippop_hifi.m3u8",
+      "type": "audio"
+    },
+    {
       "preset_id": "s406076",
-      "text": "FIP autour du Jazz",
+      "text": "FIP Jazz",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-jazz.jpg",
       "item": "station",
       "URL": "http://direct.fipradio.fr/live/fip-webradio2.mp3",
@@ -285,15 +285,23 @@
     },
     {
       "preset_id": "s969416",
-      "text": "FIP autour du Groove",
+      "text": "FIP Groove",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-groove.jpg",
       "item": "station",
       "URL": "http://direct.fipradio.fr/live/fip-webradio3.mp3",
       "type": "audio"
     },
     {
+      "preset_id": "s461912",
+      "text": "FIP Reggae",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-reggae.jpg",
+      "item": "station",
+      "URL": "http://direct.fipradio.fr/live/fip-webradio6.mp3",
+      "type": "audio"
+    },
+    {
       "preset_id": "s202064",
-      "text": "FIP autour du Monde",
+      "text": "FIP Monde",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-monde.jpg",
       "item": "station",
       "URL": "http://direct.fipradio.fr/live/fip-webradio4.mp3",
@@ -305,14 +313,6 @@
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-tout-nouveau.jpg",
       "item": "station",
       "URL": "http://icecast.radiofrance.fr/fipnouveautes-midfi.mp3",
-      "type": "audio"
-    },
-    {
-      "preset_id": "s461912",
-      "text": "FIP autour du Reggae",
-      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-reggae.jpg",
-      "item": "station",
-      "URL": "http://direct.fipradio.fr/live/fip-webradio6.mp3",
       "type": "audio"
     }
   ]
