@@ -6,7 +6,7 @@
     {
       "preset_id": "s305918",
       "text": "France Culture",
-      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/France_Culture_-_2008.svg/1200px-France_Culture_-_2008.svg.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-culture.png",
       "item": "station",
       "URL": "http://direct.franceculture.fr/live/franceculture-midfi.mp3",
       "type": "audio"
@@ -14,7 +14,7 @@
     {
       "preset_id": "s901897",
       "text": "France Inter",
-      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/39/France_Inter_logo.svg/1024px-France_Inter_logo.svg.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-inter.png",
       "item": "station",
       "URL": "http://direct.franceinter.fr/live/franceinter-midfi.mp3",
       "type": "audio"
@@ -22,7 +22,7 @@
     {
       "preset_id": "s822553",
       "text": "France Musique",
-      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/22/France_Musique_-_2008.svg/langfr-744px-France_Musique_-_2008.svg.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique.png",
       "item": "station",
       "URL": "http://direct.francemusique.fr/live/francemusique-midfi.mp3",
       "type": "audio"
@@ -30,7 +30,7 @@
     {
       "preset_id": "s960824",
       "text": "FIP",
-      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d5/FIP_logo_2005.svg/768px-FIP_logo_2005.svg.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip.png",
       "item": "station",
       "URL": "http://direct.fipradio.fr/live/fip-midfi.mp3",
       "type": "audio"
@@ -38,7 +38,7 @@
     {
       "preset_id": "s890545",
       "text": "France Info",
-      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/18/France_Info_-_2008.svg/600px-France_Info_-_2008.svg.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-info.png",
       "item": "station",
       "URL": "http://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
       "type": "audio"
@@ -46,7 +46,7 @@
     {
       "preset_id": "s221588",
       "text": "France Bleu",
-      "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/98/France_Bleu_logo_2015.svg/600px-France_Bleu_logo_2015.svg.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-bleu.png",
       "item": "station",
       "URL": "http://direct.francebleu.fr/live/fb1071-midfi.mp3",
       "type": "audio"
@@ -54,7 +54,7 @@
     {
       "preset_id": "s638891",
       "text": "Deutschlandfunk",
-      "image": "http://cdn-radiotime-logos.tunein.com/s42828q.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/dlf.png",
       "item": "station",
       "URL": "http://opml.radiotime.com/Tune.ashx?id=s42828",
       "type": "audio"
@@ -62,7 +62,7 @@
     {
       "preset_id": "s953491",
       "text": "Deutschlandradio Kultur",
-      "image": "http://cdn-radiotime-logos.tunein.com/s6628q.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/dkultur.png",
       "item": "station",
       "URL": "http://opml.radiotime.com/Tune.ashx?id=s6628",
       "type": "audio"
@@ -70,7 +70,7 @@
     {
       "preset_id": "s851068",
       "text": "SWR1",
-      "image": "http://cdn-radiotime-logos.tunein.com/s20291q.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/swr1.png",
       "item": "station",
       "URL": "http://opml.radiotime.com/Tune.ashx?id=s20291",
       "type": "audio"
@@ -78,7 +78,7 @@
     {
       "preset_id": "s161244",
       "text": "SWR2 Kulturradio",
-      "image": "http://cdn-radiotime-logos.tunein.com/s20292q.png",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/swr2.png",
       "item": "station",
       "URL": "http://opml.radiotime.com/Tune.ashx?id=s20292",
       "type": "audio"
@@ -198,15 +198,31 @@
     {
       "preset_id": "s104552",
       "text": "France Musique Classique Easy",
-      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/aca436ad-7f99-4765-9404-1b04bf216daf/fmwebradiosnormaleasy.jpg",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-easy.jpg",
       "item": "station",
       "URL": "http://direct.francemusique.fr/live/francemusiqueeasyclassique-hifi.mp3",
       "type": "audio"
     },
     {
+      "preset_id": "s639683",
+      "text": "France Musique Opéra",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-opera.png",
+      "item": "station",
+      "URL": "https://icecast.radiofrance.fr/francemusiqueopera-hifi.aac",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s249279",
+      "text": "France Musique Baroque",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-baroque.jpg",
+      "item": "station",
+      "URL": "https://icecast.radiofrance.fr/francemusiquebaroque-hifi.aac",
+      "type": "audio"
+    },
+    {
       "preset_id": "s536545",
       "text": "France Musique Classique Plus",
-      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/b8213b77-465c-487e-b5b6-07ce8e2862df/fmwebradiosnormalplus.jpg",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-plus.jpg",
       "item": "station",
       "URL": "http://direct.francemusique.fr/live/francemusiqueclassiqueplus-hifi.mp3",
       "type": "audio"
@@ -214,7 +230,7 @@
     {
       "preset_id": "s500149",
       "text": "France Musique Concerts",
-      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/72f1a384-5b04-4b98-b511-ac07b35c7daf/fmwebradiosnormalconcerts.jpg",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-concerts.jpg",
       "item": "station",
       "URL": "http://direct.francemusique.fr/live/francemusiqueconcertsradiofrance-hifi.mp3",
       "type": "audio"
@@ -222,7 +238,7 @@
     {
       "preset_id": "s643620",
       "text": "France Musique Jazz",
-      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/a2d34823-36a1-4fce-b3fa-f0579e056552/fmwebradiosnormaljazz.jpg",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-jazz.jpg",
       "item": "station",
       "URL": "http://direct.francemusique.fr/live/francemusiquelajazz-hifi.mp3",
       "type": "audio"
@@ -230,7 +246,7 @@
     {
       "preset_id": "s417233",
       "text": "France Musique Contemporaine",
-      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/92f9a1f4-5525-4b2a-af13-213ff3b0c0a6/fmwebradiosnormalcontemp.jpg",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-contemporaine.jpg",
       "item": "station",
       "URL": "http://direct.francemusique.fr/live/francemusiquelacontemporaine-hifi.mp3",
       "type": "audio"
@@ -238,9 +254,17 @@
     {
       "preset_id": "s213912",
       "text": "France Musique Cora Monde",
-      "image": "https://s3-eu-west-1.amazonaws.com/cruiser-production/2016/12/22b8b3d6-e848-4090-8b24-141c25225861/fmwebradiosnormalocora.jpg",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-bo.jpg",
       "item": "station",
       "URL": "http://direct.francemusique.fr/live/francemusiqueocoramonde-hifi.mp3",
+      "type": "audio"
+    },
+    {
+      "preset_id": "s525830",
+      "text": "France Musique BO",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-bo.jpg",
+      "item": "station",
+      "URL": "https://icecast.radiofrance.fr/francemusiquelabo-hifi.aac",
       "type": "audio"
     },
     {
@@ -270,7 +294,7 @@
     {
       "preset_id": "s202064",
       "text": "FIP autour du Monde",
-      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-tout-nouveau.jpg",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-monde.jpg",
       "item": "station",
       "URL": "http://direct.fipradio.fr/live/fip-webradio4.mp3",
       "type": "audio"
@@ -278,9 +302,9 @@
     {
       "preset_id": "s932030",
       "text": "FIP tout nouveau",
-      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-monde.jpg",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-tout-nouveau.jpg",
       "item": "station",
-      "URL": "http://direct.fipradio.fr/live/fip-webradio5.mp3",
+      "URL": "http://icecast.radiofrance.fr/fipnouveautes-midfi.mp3",
       "type": "audio"
     },
     {
