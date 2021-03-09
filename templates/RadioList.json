@@ -93,10 +93,10 @@
     },
     {
       "preset_id": "s498529",
-      "text": "RTÉ Radio 1",
-      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/rte-1.png",
+      "text": "Yoga chill",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/yoga-chill.png",
       "item": "station",
-      "URL": "https://av.rasset.ie/av/live/radio/radio1.m3u",
+      "URL": "http://opml.radiotime.com/Tune.ashx?id=s302899",
       "type": "audio"
     },
     {
