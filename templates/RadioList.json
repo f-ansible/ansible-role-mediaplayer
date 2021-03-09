@@ -84,19 +84,19 @@
       "type": "audio"
     },
     {
-      "preset_id": "s279224",
-      "text": "Linn Classical",
-      "image": "http://cdn-radiotime-logos.tunein.com/s122116q.png",
+      "preset_id": "s283582",
+      "text": "Mother earth",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/mother-earth.png",
       "item": "station",
-      "URL": "http://radio.linnrecords.com/cast/tunein.php/linnclassical/playlist.pls",
+      "URL": "https://www.streamserver24.com/metafiles/motherearth.pls",
       "type": "audio"
     },
     {
-      "preset_id": "s201840",
-      "text": "Linn Jazz",
-      "image": "http://cdn-radiotime-logos.tunein.com/s122120q.png",
+      "preset_id": "s498529",
+      "text": "RTÉ Radio 1",
+      "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/rte-1.png",
       "item": "station",
-      "URL": "http://radio.linnrecords.com/cast/tunein.php/linnjazz/playlist.pls",
+      "URL": "https://av.rasset.ie/av/live/radio/radio1.m3u",
       "type": "audio"
     },
     {
@@ -180,19 +180,19 @@
       "type": "audio"
     },
     {
-      "preset_id": "s816142",
-      "text": "Audiophile Baroque",
-      "image": "http://static.radio.fr/images/broadcasts/24/30/21374/c175.png",
+      "preset_id": "s279224",
+      "text": "Linn Classical",
+      "image": "http://cdn-radiotime-logos.tunein.com/s122116q.png",
       "item": "station",
-      "URL": "http://8.38.78.173:2199/tunein/baroque.pls",
+      "URL": "http://radio.linnrecords.com/cast/tunein.php/linnclassical/playlist.pls",
       "type": "audio"
     },
     {
-      "preset_id": "s283582",
-      "text": "Flux4 Radio",
-      "image": "http://cdn-radiotime-logos.tunein.com/s75856q.png",
+      "preset_id": "s201840",
+      "text": "Linn Jazz",
+      "image": "http://cdn-radiotime-logos.tunein.com/s122120q.png",
       "item": "station",
-      "URL": "http://www.flux4.com/player/listen.m3u",
+      "URL": "http://radio.linnrecords.com/cast/tunein.php/linnjazz/playlist.pls",
       "type": "audio"
     },
     {
@@ -200,7 +200,7 @@
       "text": "France Musique Classique Easy",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-easy.jpg",
       "item": "station",
-      "URL": "http://direct.francemusique.fr/live/francemusiqueeasyclassique-hifi.mp3",
+      "URL": "http://icecast.radiofrance.fr/francemusiqueeasyclassique-hifi.aac",
       "type": "audio"
     },
     {
@@ -208,7 +208,7 @@
       "text": "France Musique Classique Plus",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-plus.jpg",
       "item": "station",
-      "URL": "http://direct.francemusique.fr/live/francemusiqueclassiqueplus-hifi.mp3",
+      "URL": "http://icecast.radiofrance.fr/francemusiqueclassiqueplus-hifi.aac",
       "type": "audio"
     },
     {
@@ -216,7 +216,7 @@
       "text": "France Musique Concerts",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-concerts.jpg",
       "item": "station",
-      "URL": "http://direct.francemusique.fr/live/francemusiqueconcertsradiofrance-hifi.mp3",
+      "URL": "http://icecast.radiofrance.fr/francemusiqueconcertsradiofrance-hifi.aac",
       "type": "audio"
     },
     {
@@ -240,7 +240,7 @@
       "text": "France Musique Jazz",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-jazz.jpg",
       "item": "station",
-      "URL": "http://direct.francemusique.fr/live/francemusiquelajazz-hifi.mp3",
+      "URL": "http://icecast.radiofrance.fr/francemusiquelajazz-hifi.aac",
       "type": "audio"
     },
     {
@@ -248,7 +248,7 @@
       "text": "France Musique Contemporaine",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/france-musique-contemporaine.jpg",
       "item": "station",
-      "URL": "http://direct.francemusique.fr/live/francemusiquelacontemporaine-hifi.mp3",
+      "URL": "http://icecast.radiofrance.fr/francemusiquelacontemporaine-hifi.aac",
       "type": "audio"
     },
     {
@@ -280,7 +280,7 @@
       "text": "FIP Pop",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-pop.jpg",
       "item": "station",
-      "URL": "   http://direct.radiofrance.fr/fippop-hifi.aac",
+      "URL": "http://icecast.radiofrance.fr/fippop-hifi.aac",
       "type": "audio"
     },
     {
@@ -320,7 +320,7 @@
       "text": "FIP tout nouveau",
       "image": "https://gitlab.com/f.ansible/ansible-mediaplayer/-/raw/master/extra/fip-tout-nouveau.jpg",
       "item": "station",
-      "URL": "http://direct.radiofrance.fr/fipnouveautes-midfi.mp3",
+      "URL": "http://icecast.radiofrance.fr/fipnouveautes-hifi.aac",
       "type": "audio"
     }
   ]
